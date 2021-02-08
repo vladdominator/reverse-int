@@ -4,4 +4,9 @@ module.exports = function reverse (n) {
       let numberValue = Number(stringArray);
       return numberValue;
    }
+   else{
+      let stringArray = String(-n).split('').reverse().join('');
+      let numberValue = Number(stringArray);
+      return numberValue;
+   }
 }
